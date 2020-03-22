@@ -6,7 +6,7 @@ int main(){
 	cin.tie(0);
 
 	int N,M;
-	cin>>N,M;
+	cin>>N>>M;
 
 	if(N>0 && M>0)
 		cout<<N*(N-1)/2+M*(M-1)/2;
