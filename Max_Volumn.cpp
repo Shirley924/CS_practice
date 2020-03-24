@@ -3,11 +3,11 @@ using namespace std;
   
 int main(){
   ios::sync_with_stdio(false);
-  cin.tie(0);
+  
   double L;
-  cin>>L;
+  scanf("%lf",&L);
   double die_length=L/3.0;
-  cout<<pow(die_length,3.0)<<endl;
+  printf("%7lf",pow(die_length,3.0));
   
   return 0;
 }
