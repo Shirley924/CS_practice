@@ -9,7 +9,7 @@ int main(){
 	ios::sync_with_stdio(false);
 	cin.tie(0);
 	int N,k;
-	cin>>N,k;
+	cin>>N>>k;
 	
 	cout<<way(N,k)<<endl;
 
